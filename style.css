@@ -3,4 +3,40 @@
     padding:0;
     box-sizing:border-box;
 }
-
+.d1{ 
+    width:100%;
+    height:100vh;
+    background-image: url(images/welcome\ page.jpg);
+    background-size:cover;
+    text-align: center;
+    }
+.a-box{
+    background: linear-gradient(rgb(35, 33, 33), rgb(0, 128, 113), rgb(0, 87, 87));
+    
+}
+ul{
+    display: flex;
+    list-style: none;  
+ } 
+li{
+    padding: 30px;
+    
+ }
+ .name{
+    position: absolute;
+    top: 580px;
+    left: 150px;
+    font-size:80px;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(rgb(114, 3, 92), rgb(109, 9, 9), orange);
+    padding:10px;
+    border-radius:20px;
+   
+ }
+ 
+ 
+ @media (min-width:1024px)
+    {
+     
+    
+    } 
