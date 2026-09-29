@@ -11,32 +11,102 @@
     text-align: center;
     }
 .a-box{
-    background: linear-gradient(rgb(35, 33, 33), rgb(0, 128, 113), rgb(0, 87, 87));
-    
+    background: linear-gradient(rgb(136, 14, 14), rgb(0, 141, 111), black);
 }
 ul{
     display: flex;
     list-style: none;  
  } 
 li{
-    padding: 30px;
+    padding: 20px;
     
  }
  .name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     top: 580px;
-    left: 150px;
-    font-size:80px;
-    color: rgb(255, 255, 255);
-    background:linear-gradient(rgb(114, 3, 92), rgb(109, 9, 9), orange);
+    left: 200px;
+    font-size:70px;
+    color: rgb(24, 177, 167);
+    background:linear-gradient(rgb(114, 3, 92), rgb(109, 9, 9), rgb(167, 17, 139));
     padding:10px;
     border-radius:20px;
-   
+ }
+ a{
+    color:white;
+    text-decoration:none;
+    
+ }
+ a:hover{
+    color: blue;
+    text-decoration:underline;
+    
+ }
+ .welcome{
+    color: rgb(223, 9, 202);
+    font-size:55px;
+    animation-name: wel;
+    animation-duration: 20s;
+    position:absolute;
+    left:100px;
+    top:140px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+  @keyframes wel {
+    from{
+        position:absolute;
+        left:-1250px;
+        top:140px;
+    }
+    to{
+        position:absolute;
+        left:100px;
+        top:140px;
+    }  
+ }
+.welcome1{
+    color:rgb(223, 9, 202);
+    font-size:55px;
+    animation-name:wel1;
+    animation-duration: 25s;
+    position:absolute;
+    left:330px;
+    top:250px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ @keyframes wel1{
+    from{
+        position:absolute;
+        top:250px;
+        left:-2050px;
+        
+    }
+    to{
+        position:absolute;
+    top:250px;
+    left:330px;
+    }
+
+ }
+ .b1{
+    padding:20px;
+    color:rgb(176, 176, 177);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    background:linear-gradient(red, black);
+    border-radius:25px;
+    position:absolute;
+    top:460px;
+    left:630px;
+ }
+ .b1:hover{
+    color:blue;
+    border:3px solid blue;
+    box-shadow: 0px 0px 10px 10px rgba(60,55,139,0.6);
+    text-decoration:underline;
  }
  
- 
- @media (min-width:1024px)
+ @media (min-width:375px)
     {
-     
-    
-    } 
+    }
