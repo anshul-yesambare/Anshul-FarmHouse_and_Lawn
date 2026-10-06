@@ -5,46 +5,47 @@
 }
 .d1{
     width:100%;
-    height:40vh;
-    background-image: url(images/welcome\ page.jpg);
+    height:100vh;
+    background-image: url(/assets/images/welcome\ page.jpg);
     background-size:cover;
     text-align: center;
 }
 nav{
     background-color:rgb(5, 5, 5);
 }
-.ava{
-    position:absolute;
-    top:340px;
-    left:240px;
-}
-.b1{
-    padding:5px;
-    color:rgb(176, 176, 177);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:20px;
-    background:linear-gradient(red, black);
-    border-radius:25px;
-    }
+
 .name{
-    font-size:22px;
-    
-    color:rgb(59, 46, 103);
-    background:linear-gradient(rgb(193, 43, 6), rgb(144, 125, 125), rgb(241, 5, 198));
-    padding:10px;
+    font-size:24px;
+    color:rgb(73, 26, 26);
+    background:linear-gradient(rgb(89, 16, 16), rgb(183, 169, 17), rgb(105, 14, 58));
+    padding:16px;
+    margin:0;
 }
-.welcome{
-    font-size:30px;
+.my-btn{
+    border-radius:15px;
+    position:absolute;
+    top:333px;
 }
+.my-btn:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
  .welcome1{
-    font-size:25x;
+    font-size:22px;
+    position:absolute;
+    top:390px;
  }
-
- @media (max-width:376px) {
-    .welcome1{display:none;}
-    
+ .headin{
+   margin-top:20px;
  }
-
+ a{
+    color:red;
+    text-decoration:none;
+ }
+ a:hover{
+    color:blue;
+ }
 
 
 
@@ -56,7 +57,7 @@ nav{
     .d1{ 
     width:100%;
     height:100vh;
-    background-image: url(images/welcome\ page.jpg);
+    background-image: url(/assets/images/welcome\ page.jpg);
     background-size:cover;
     text-align: center;
     }
