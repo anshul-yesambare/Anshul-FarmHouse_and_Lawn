@@ -1,0 +1,17 @@
+div{
+    width:1470px;
+    height:100vh;
+    border:7px solid black;
+}
+
+@media (min-width:1470px){
+    div{
+        width:1450px;
+        height:100vh;
+        border:7px solid black;
+    }
+.send-req{
+   
+    
+}
+}

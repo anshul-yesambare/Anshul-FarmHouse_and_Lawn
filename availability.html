@@ -1,10 +1,12 @@
-<div class="booking-box">
-    <h2>Check Availability</h2>
+<div style="background-color: #9f9696; padding: 20px; border-radius: 10px; text-align:center; height:500px; font-size:40px;">
+    <h2>DATE FOR YOUR VISIT</h2>
 
-    <label>Select Date:</label>
-    <input type="date" id="bookingDate">
+    <label style="font-size:60px;">Select Date:</label>
 
-    <button onclick="checkAvailability()">Check Availability</button>
+    <input style="font-size:40px;height:100px;" type="date" id="bookingDate">
+
+    <button class="send-req" style="font-size:100px; position: absolute; left:30px; top:350px; border-radius: 40px; :hover{background-color: #7a7a7a;} " onclick="checkAvailability()">BOOK YOUR DAYS</button>
 
     <p id="result"></p>
 </div>
+<link rel="stylesheet" href="availability.css">
