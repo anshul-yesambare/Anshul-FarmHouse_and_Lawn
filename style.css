@@ -8,17 +8,29 @@
     height:100vh;
     background-image: url(/assets/images/welcome\ page.jpg);
     background-size:cover;
-    text-align: center;
+    
+}
+.logo{
+   width:100%;
+   height:100vh;
+}
+.head-im{
+   width:100%;
+   height:200px;
+   margin-top:80px;
+
 }
 nav{
     background-color:rgb(5, 5, 5);
 }
 .gate-img{
-   width:250px;
+   width:66%;
    height:240px;
    position:absolute;
-   left:130px;
+   left:128px;
+   
 }
+
 .name{
     font-size:24px;
     color:rgb(73, 26, 26);
@@ -26,23 +38,14 @@ nav{
     padding:16px;
     margin:0;
 }
-.my-btn{
-    border-radius:15px;
-    position:absolute;
-    top:333px;
-}
+
 .my-btn:hover{
-    color:blue;
+    color:rgb(51, 51, 173);
     text-decoration:underline;
 }
-
-
- .welcome1{
-    font-size:22px;
-    position:absolute;
-    top:390px;
- }
  .headin{
+   width:100px;
+   height:40px;
    margin-top:20px;
  }
  a{
@@ -53,8 +56,32 @@ nav{
     color:blue;
  }
 
+.im1{
+   width:100%; 
+   height:320px;
+}
+.gate-farm-lawn{
+   width:100%;
+   height:50vh;
+   border-radius:10px;
+   border: 2px solid black;
+}
+.gate-farm-lawn1{
+   margin-top:10px;
+   width:100%;
+   height:50vh;
+   border-radius:10px;
+   border:2px solid black;
 
-
+}
+.para1{
+   padding: 15px;
+   font-size: 17px;
+   text-align:center;
+   background:linear-gradient(black, yellow, rgb(0, 0, 0));
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:sienna;
+   }
 
 
 
@@ -66,8 +93,29 @@ nav{
     background-size:cover;
     text-align: center;
     }
-    .a-box{
-    background: linear-gradient(rgb(136, 14, 14), rgb(0, 141, 111), black);
+.im1{
+   width:50%;
+   height:450px;
+}
+.my-btn:hover{
+   background:linear-gradient(red, yellow, green)
+}
+.head-im{
+   width:100%;
+   height:280px;
+   margin-top:0px;
+}
+.a-box{
+   width: 100%;
+   height:50px;
+}
+.gate-img{
+   width:100px;
+   height:79px;
+   position:absolute;
+   top:730px;
+   left:70px;
+   display: none;
 }
 ul{
     display: flex;
@@ -76,17 +124,6 @@ ul{
  } 
 li{
     padding: 20px;
- }
- .name{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 580px;
-    left: 250px;
-    font-size:70px;
-    color: rgb(24, 177, 167);
-    background:linear-gradient(rgb(114, 3, 92), rgb(109, 9, 9), rgb(167, 17, 139));
-    padding:10px;
-    border-radius:20px;
  }
  a{
     color:white;
@@ -102,75 +139,38 @@ li{
     text-decoration:underline;
     
  }
- .welcome{
-    color: rgb(223, 9, 202);
-    font-size:55px;
-    animation-name: wel;
-    background-color:white;
-    padding:5px;
-    animation-duration: 20s;
-    position:absolute;
-    left:100px;
-    top:140px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
-  @keyframes wel {
-    from{
-        position:absolute;
-        left:-1250px;
-        top:140px;
-    }
-    to{
-        position:absolute;
-        left:100px;
-        top:140px;
-    }  
- }
-.welcome1{
-    color:rgb(223, 9, 202);
-    font-size:55px;
-    animation-name:wel1;
-    background-color:white;
-    animation-duration: 25s;
-    padding:5px;
-    position:absolute;
-    left:330px;
-    top:250px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+.my-btn{
+   width: 50%;
+   text-align: center;
+   position: absolute;
+   left: 360px;
 }
 
- @keyframes wel1{
-    from{
-        position:absolute;
-        top:250px;
-        left:-2050px;
-        
-        
-    }
-    to{
-        position:absolute;
-    top:250px;
-    left:330px;
-    }
-
- }
- .b1{
-    padding:20px;
-    color:rgb(176, 176, 177);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:40px;
-    background:linear-gradient(red, black);
-    border-radius:25px;
-    position:absolute;
-    top:460px;
-    left:630px;
- }
- .b1:hover{
-    color:blue;
-    border:3px solid blue;
-    box-shadow: 0px 0px 10px 10px rgba(60,55,139,0.6);
-    text-decoration:underline;
- }
-
-
+.para1{
+   position: absolute;
+   top:796px;
+   width: 100%;
+   font-size:20px;
+}
+.f-gate-im{
+   
+   display:flex;
+   
+}
+.gate-farm-lawn{
+   width:50%;
+   height:80vh;
+   margin: 10px;
+   margin-top:70px;
+   border-radius:30px;
+}
+.gate-farm-lawn1{
+   width:50%;
+   height:80vh;
+   margin: 10px;
+   margin-top:70px;
+   border-radius:30px;
+}
  }
