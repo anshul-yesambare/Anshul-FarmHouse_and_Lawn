@@ -6,9 +6,15 @@
 .d1{
     width:100%;
     height:100vh;
-    background-image: url(/assets/images/welcome\ page.jpg);
+background-image: url(/assets/images/welcome\ page.jpg);
     background-size:cover;
     
+}
+.a-box{
+   width:100%;
+   height: 240px;
+   display:flex;
+   background-color:black;
 }
 .logo{
    width:100%;
@@ -54,11 +60,33 @@ nav{
  }
  a:hover{
     color:blue;
+    background-color: rgb(85, 75, 75);
  }
 
 .im1{
    width:100%; 
    height:320px;
+}
+
+.wel-h2{
+   font-size:40px;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ans-h4{
+   font-size:24px;
+   text-align:center;
+   margin-right:5px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ans-h4:hover{
+   box-shadow: 0px 0px 9px 4px rgba(79,195,112,0.44);
+}
+.disc-para{
+   padding:10px; 
+   margin-left: 10px; 
+   font-size:18px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .gate-farm-lawn{
    width:100%;
@@ -89,9 +117,11 @@ nav{
     .d1{ 
     width:100%;
     height:100vh;
-    background-image: url(/assets/images/welcome\ page.jpg);
-    background-size:cover;
+    background-color: black;
     text-align: center;
+    }
+    .logo{
+      background-color: black;
     }
 .im1{
    width:50%;
@@ -135,7 +165,8 @@ li{
     left:1100px;
  }
  a:hover{
-    color: blue;
+    color: rgb(255, 0, 0);
+    background-color: rgb(85, 75, 75);
     text-decoration:underline;
     
  }
