@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+.disc-forbig{
+   display:none;
+}
 .d1{
     width:100%;
     height:100vh;
@@ -10,6 +13,7 @@ background-image: url(/assets/images/welcome\ page.jpg);
     background-size:cover;
     
 }
+
 .a-box{
    width:100%;
    height: 240px;
@@ -88,20 +92,6 @@ nav{
    font-size:18px;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.gate-farm-lawn{
-   width:100%;
-   height:50vh;
-   border-radius:10px;
-   border: 2px solid black;
-}
-.gate-farm-lawn1{
-   margin-top:10px;
-   width:100%;
-   height:50vh;
-   border-radius:10px;
-   border:2px solid black;
-
-}
 .para1{
    padding: 15px;
    font-size: 17px;
@@ -109,7 +99,44 @@ nav{
    background:linear-gradient(black, yellow, rgb(0, 0, 0));
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color:sienna;
-   }
+}
+.gate-farm-lawn{
+   width:100%;
+   border-radius:20px;
+   border:2px solid black;
+}
+.farm-im-disc{
+   font-size:27px;
+   padding:5px;
+   color:rgb(69, 47, 20);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.farm-im-disc1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding:8px;
+   text-align:justify;
+   color:rgb(108, 61, 0);
+   font: size 15px;
+}
+
+
+.para-head-fr-lawn{
+   font-size:22px;
+   padding:5px;
+   margin-top:10px;
+   color:rgb(69, 47, 20);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para-for-lawn{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding:8px;
+   text-align:justify;
+   color:rgb(108, 61, 0);
+}
+
+
+
 
 
 
@@ -138,6 +165,34 @@ nav{
 .a-box{
    width: 100%;
    height:50px;
+}
+.ancor{
+   width:100%;
+}
+.wel-h2{
+   margin-top:25px;
+   color: rgb(121, 127, 127);
+}
+.ans-h4{
+   margin-top:20px ;
+   margin-left:10px;
+   font-size:100px;
+   color:rgb(189, 172, 141);
+}
+.ans-h4:hover{
+   color: darkgreen;
+}
+
+.disc-para{
+   font-size:30px;
+   color:rgb(148, 122, 122);
+}
+.disc-forbig{
+   font-size:22px;
+   padding: 20px;
+   display: block;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:rgb(96, 71, 71);
 }
 .gate-img{
    width:100px;
@@ -186,22 +241,113 @@ li{
    font-size:20px;
 }
 .f-gate-im{
+   width:100%;
    
+   height:85vh;
+      
+}
+.f-gate-im:hover{
+   box-shadow: 0px 0px 10px 1px rgba(147,124,124,1);
+}
+.f-gate-im:hover, .farm-im-disc:hover{
+   color: rgb(42, 78, 42);
+}
+
+
+
+.lawn-i-box{
+   width:50%;
+   height:80vh;
+   margin: 10px;
+   margin-top:20px;
+   border-radius:30px;
+}
+.gate-farm-lawn{ width:100%;
+    height:50vh;
+     border-radius:10px;
+     border: 2px solid black;
+    } 
+.gate-farm-lawn1{
+   margin-top:10px;
+   width:100%;
+   height:50vh;
+   border-radius:10px; 
+   border:2px solid black; }
+
+
+
+
+.gate-both{
+   width:50%;
+}
+.both-gate-im{
    display:flex;
-   
+   width:100%;
+   height:90vh;
+}
+.farm-im-disc{
+   margin-left:20px;
+   font-size:40px;
+}
+.f-book-btn-1{
+   margin-left:250px;
+}
+.book-farm-headin{
+   margin-left: 250px;
+}
+.farm-im-disc1{
+   font-size:18px;
+   text-align:justify;
+   padding:20px;
+}
+.f-book-btn-1:hover{
+   background-color: blue;
+   box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.8);
+}
+.para-head-fr-lawn{
+   margin-top:20px;
+   font-size:40px;;
+   margin-left:30px;
+}
+
+
+.para-for-lawn{
+   font-size:21px;
+   text-align:justify;
+   padding:20px;
+}
+.book-lawn-headin{
+   margin-left: 270px;
+}
+.l-gate-im1{
+   width:100%;
+   height:80vh;
+   display:flex;
+}
+.lawn-im-disc{
+   width:50%;
+   font-size:30px;
+}
+.gate-lawn-lawn1{
+   width:50%;
 }
 .gate-farm-lawn{
    width:50%;
    height:80vh;
    margin: 10px;
-   margin-top:70px;
+   margin-top:20px;
    border-radius:30px;
 }
 .gate-farm-lawn1{
    width:50%;
    height:80vh;
    margin: 10px;
-   margin-top:70px;
+   margin-top:20px;
    border-radius:30px;
 }
+ .got-farm-disc{
+   width: 100px;
+   height:100px;
+   border:5px solid black;
+ }
  }
