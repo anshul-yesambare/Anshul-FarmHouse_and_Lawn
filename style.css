@@ -120,7 +120,22 @@ nav{
    font: size 15px;
 }
 
-
+.f-book-btn-1{
+   color: rgb(0, 101, 101);
+   margin-left:90px;
+}
+.f-book-btn-1:hover{
+   background-color: rgb(7, 7, 178);
+   color:rgb(192, 149, 21);
+}
+.book-farm-headin{
+   margin-left:90px;
+   color: tomato;
+}
+.book-lawn-headin{
+   margin-left:95px;
+   color:tomato;
+}
 .para-head-fr-lawn{
    font-size:22px;
    padding:5px;
@@ -149,10 +164,11 @@ nav{
     }
     .logo{
       background-color: black;
+      height:93vh;
     }
 .im1{
-   width:50%;
-   height:450px;
+   width:40%;
+   height:400px;
 }
 .my-btn:hover{
    background:linear-gradient(red, yellow, green)
@@ -164,7 +180,13 @@ nav{
 }
 .a-box{
    width: 100%;
-   height:50px;
+   height:50px;  
+}
+.a-box-box1{
+   background-color:aqua;
+   position: fixed;
+   bottom:3%;
+   
 }
 .ancor{
    width:100%;
@@ -294,6 +316,7 @@ li{
 }
 .book-farm-headin{
    margin-left: 250px;
+   text-align: start;
 }
 .farm-im-disc1{
    font-size:18px;

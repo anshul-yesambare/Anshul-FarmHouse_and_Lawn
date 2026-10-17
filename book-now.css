@@ -6,6 +6,9 @@
 .book-div{
     width:100%;
     height:100vh;
+    background-image: url(/assets/imag/SKY\ PHNSCRN.jpg);
+    background-size:cover;
+    
 }
 .book-head{
     text-align:center;
@@ -17,6 +20,7 @@
     height:40px;
     border:2px solid black;
 }
+
 .book-name:hover{
     box-shadow: 0px 0px 9px 2px rgb(170, 160, 160);
 }
@@ -66,4 +70,90 @@ k{
 .book-btn:hover{
     background-color:rgb(56, 202, 56);
     box-shadow: 0px 0px 9px 2px rgb(170, 160, 160);
+}
+
+
+
+
+@media (min-width:1024px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    .book-div{
+        background-image: url(/assets/images/empty-space.jpg);
+        background-size:cover;
+    }
+    .book-head{
+        margin-top:0;
+        font-size:70px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:sienna;
+    }
+    .b-page-field{
+        font-size:30px;
+        color: rgb(142, 2, 19);
+        margin-left:300px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .book-size{
+        width:60%;
+        height:50px;
+        margin-left:300px;
+        padding:20px;
+        color: blue;
+        font-size:22px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .book-size:hover{
+        border: none;
+        color: grey;
+        
+    }
+    .book-size1{
+        width:60%;
+        margin-left:300px; 
+        font-size: 20px;
+        padding:5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(39, 9, 175) ;  
+    }
+    .book-size1:hover{
+        border:none;
+        color: rgb(132, 118, 118);
+    }
+    .date-ss{
+        width:200px;
+        height:50px;
+        text-align:center;
+        font-size:25px;
+        color: rgb(29, 102, 102);
+        margin-left:520px;
+    }
+    .date-ss:hover{
+        border:none;
+        color:rgb(80, 134, 0);
+    }
+    .date-ss1{
+        width:200px;
+        height:50px;
+        color: rgb(29, 102, 102);
+        text-align:center;
+        font-size:25px;
+        margin-left:100px;
+    }
+    .date-ss1:hover{
+        border:none;
+        color:rgb(80, 134, 0);
+    }
+    k{
+        margin-left:90px;
+    }
+    .b-page-b-btn{
+        padding:20px;
+        margin-left:620px;
+        margin-top:17px;
+        margin-bottom: 50px;
+    }
 }
