@@ -11,33 +11,57 @@
 
 .heading-av{
     text-align:center;
-    font-size:30px;
+    font-size:28px;
     margin-top: 30px;
-    
+    padding:10px;
+    color:rgb(117, 15, 15);
+    margin-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serifl;
 }
-
+.b-page-field-avail{
+    font-size:25px;
+    margin-left:50px;
+    color:rgb(138, 72, 48);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book-size-avai{
+    width:60%;
+    height:40px;
+    font-size:20px;
+    color:rgb(16, 16, 144);
+    border:2px solid black;
+    margin-left:60px;
+    margin-top:10px;
+}
 .date{
     font-size:30px;
     margin-left:28px;
     margin-top:25px;
+     color:rgb(138, 72, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .date1{
-    font-size:15px;
+    font-size:20px;
+    margin-left:65px;
     border:1px solid black;
     padding:5px;
+    color:grey;
 }
 .date1:hover{
-    background-color:rgb(197, 187, 187);
+    color:rgb(22, 22, 215);
 }
 .your-days{
     font-size:30px;
     border-radius:15px;
     padding:11px;
-    margin-top: 40px;
+    margin-top: 30x;
     margin-left: 30px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .your-days:hover{
-    background-color: rgb(112, 112, 193);
+    color:rgb(20, 20, 162);
+    background-color: rgb(51, 157, 104);
 }
 .garden-i{
     width: 100%;
@@ -47,7 +71,6 @@
 .image-av{
     width:100%;
     height:60%;
-
 }
 @media(min-width:1024px) {
     *{
@@ -66,30 +89,63 @@
     .heading-av{
         font-size: 80px;
         text-align:end;
-        
-
+        margin-top:0;
+        margin-right:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(133, 11, 11);
+    }
+    .b-page-field-avail{
+        font-size:35px;
+        margin-left: 700px;
+        color:rgb(108, 47, 4);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .book-size-avai{
+        width:20%;
+        height:40px;
+        margin-left:850px;
+        margin-top:0;
+        font-size:22px;
+        padding:20px;
+    }
+    .book-size-avai:hover{
+        border:none;
+        box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.40);
     }
     .date{
-        font-size:50px;
+        font-size:40px;
         margin-left:350px;
-        margin-right: 40px;
+        
+        color:rgb(137, 0, 5);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .date-date{
+        margin-top:none;
+        color:rgb(239, 2, 2);
+        margin-left:500px;
     }
     .date1{
-        font-size:50px;
-        position:absolute;
-        left:950px;
+        font-size:40px;
+        color:grey;
+        margin-left:500px;
         border:1px solid black;
     }
     .date1:hover{
-        box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.51);
+        box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.40);
+        border:none;
+        color:blue;
     }
     .your-days{
-        position:absolute;
-        left:700px;
-        font-size:60px;
+        margin-left:830px;
+        padding:20px;
+        color:grey;
+        font-size:40px;
         border-radius:35px;
     }
     .your-days:hover{
         box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.51);
+        color:blue;
+
+        background-color:rgb(44, 209, 44);
     }
 }

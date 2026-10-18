@@ -1,5 +1,5 @@
 *{
-    margin:5px;
+    margin:0px;
     padding:0;
     box-sizing:border-box;
 }
@@ -12,8 +12,8 @@
 }
 .book-head{
     text-align:center;
-    margin-top:30px;
-    
+    color:rgb(35, 35, 116);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .book-name{
     width: 100%;
@@ -41,7 +41,7 @@
     box-shadow: 0px 0px 9px 2px rgb(170, 160, 160);
 }
 .book-date{
-    margin-left:20px;
+    /* margin-left:20px; */
     height:30px;
     border:1px double black;
     padding: 5px;
@@ -63,7 +63,8 @@ k{
 }
 .book-btn{
     font-size:20px;
-    padding:10px;
+    padding:15px;
+    margin-left:75px;
     border-radius: 18px;
     background-color: rgb(102, 102, 236);
 }
@@ -71,6 +72,48 @@ k{
     background-color:rgb(56, 202, 56);
     box-shadow: 0px 0px 9px 2px rgb(170, 160, 160);
 }
+.b-page-field{
+    font-size:20px;
+    margin-left: 20px;
+    color:rgb(94, 90, 16);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book-size{
+    margin-left:35px;
+    width:88%;
+    font-size:17px;
+    padding:10px;
+    color:rgb(0, 0, 195);
+}
+.book-size:hover{
+    border: none;
+}
+.book-size1{
+    width:88%;
+    font-size:17px;
+    margin-left:33px;
+    color:rgb(0, 0, 195);
+}
+.book-size1:hover{
+    border:none;
+}
+.date-ss{
+    margin-left:50px;
+    margin-top:10px;
+    font-size:16px;
+    color:rgb(13, 104, 13);
+}
+.date-ss:hover{
+    border:none;
+}
+.date-ss1{
+    font-size:16PX;
+    color:rgb(13, 104, 13);
+}
+.date-ss1:hover{
+    border:none;
+}
+
 
 
 
@@ -82,7 +125,7 @@ k{
         box-sizing:border-box;
     }
     .book-div{
-        background-image: url(/assets/images/empty-space.jpg);
+        background-image: url(/assets/imag/SKY\ LAPSCRN.jpg);
         background-size:cover;
     }
     .book-head{
@@ -153,7 +196,7 @@ k{
     .b-page-b-btn{
         padding:20px;
         margin-left:620px;
-        margin-top:17px;
+        margin-top:10px;
         margin-bottom: 50px;
     }
 }

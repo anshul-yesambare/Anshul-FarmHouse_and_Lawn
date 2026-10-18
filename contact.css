@@ -22,6 +22,18 @@ h4{
     background-image:url(/assets/1/empty-space.jpg);
     background-size:cover;
 }
+.con-head{
+    color:rgb(85, 38, 38);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cont-f-name{
+    color: rgb(106, 29, 29);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con-info{
+    color:rgb(90, 35, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 @media (min-width:1024px) {
     h1{

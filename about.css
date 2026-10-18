@@ -3,3 +3,12 @@
     padding:0;
     box-sizing:border-box;
 }
+.abt-head{
+    text-align:center;
+    font-size:40px;
+    padding:20px;
+}
+.abt-img{
+    width:100%;
+    height:50vh;
+}
