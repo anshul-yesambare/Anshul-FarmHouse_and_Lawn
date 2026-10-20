@@ -10,11 +10,22 @@
     padding:20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.abt-head1{
+    text-align:center;
+    font-size:30px;
+    color:rgb(77, 96, 58);
+    padding:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .abt-frm-head{
     padding:5px;
     color: rgb(136, 8, 8);
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.crd-lawn-head-1{
+    font-size:20px;
+    padding:10px;
 }
 .card-abt-1{
     border:1px solid grey;
@@ -32,4 +43,35 @@
 .card-text{
     font-size:18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (min-width:1024px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    .abt-head{
+        font-size: 60px;
+    }
+    .abt-frm-head{
+        font-size:50px;
+        margin-top:20px;
+    }
+    .d1-f-flex{
+        display:flex;
+    }
+    .card-abt-1{
+        padding:20px;
+        margin:20px;
+    }
+    .abt-img{
+        width:430px;
+    }
+
+
+
+
+    .abt-head1{
+        font-size:50px;
+    }
 }
