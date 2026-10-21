@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+ .anim-im-tr, .anim-im-tr1{
+   display: none;
+ }
 .disc-forbig{
    display:none;
 }
@@ -239,8 +242,8 @@ nav{
 }
 .a-box-box1{
    background-color:aqua;
-   /* position: fixed; */
-   /* bottom:3%; */
+   position: sticky;
+   top:0;
    
 }
 .ancor{
@@ -339,21 +342,19 @@ li{
    margin-top:20px;
    border-radius:30px;
 }
-.gate-farm-lawn{ width:100%;
-    height:50vh;
-     border-radius:10px;
-     border: 2px solid black;
-    } 
+.gate-farm-lawn{ 
+   width:100%;
+   height:50vh;
+   border-radius:10px;
+   border: 2px solid black;
+} 
 .gate-farm-lawn1{
    margin-top:10px;
    width:100%;
    height:50vh;
    border-radius:10px; 
-   border:2px solid black; }
-
-
-
-
+   border:2px solid black; 
+}
 .gate-both{
    width:50%;
 }
@@ -432,17 +433,19 @@ li{
  }
 .card-main-div{
    display:flex;
+   margin-left:100px;
 }
 .card-frm{
-   width:50%;
-   height:80vhvh;
+   width:45%;
+   height:70vhvh;
    border-radius:40px;
 }
 .card-allclg{
-   width:95%;
-   height:50vh;
+   width:90%;
+   height:40vh;
    padding:10px;
    margin:20px;
+   margin-left:30px;
 }
 .card-bf-head{
    font-size:42px;
@@ -455,5 +458,51 @@ li{
  }
  .card-text-1{
    padding:30px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .card-im-haed-1{
+   color:rgb(52, 141, 218);
+ }
+
+ .card-frm:hover .card-text-1{
+   color:rgb(52, 141, 218);
+ }
+ .contact-pg1{
+   width:100%;
+   height:40vh;
+   color:white;
+   background-color: black;
+ }
+ .anim-im-tr{
+   position: absolute;
+   left: 80px;
+   top:60px;
+   width:300px; 
+   display: block;
+   height:270px;
+   animation: flip;
+   animation-iteration-count: infinite;
+   animation-duration: 9s;
+ }
+ .anim-im-tr1{
+   
+   position: absolute;
+   right: 90px;
+   top:60px;
+   width:300px; 
+   display: block;
+   height:270px;
+   animation: flip;
+   animation-iteration-count: infinite;
+   animation-duration: 9s;
+ }
+ @keyframes flip {
+   from{
+      transform:rotateX(0deg)
+   } 
+   to{
+      transform: rotateY(360deg)
+   }
  }
 }
+ 
