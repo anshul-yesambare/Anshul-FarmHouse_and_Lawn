@@ -173,6 +173,9 @@ nav{
 .card-frm:hover .card-im-haed-1{
  color: red;
 }
+.card-frm:hover .card-text-1{
+   color:rgb(42, 144, 246);
+}
 .card-text-1{
    font-size:20px;
    padding:10px;
@@ -206,7 +209,27 @@ nav{
    overflow:hidden;
    padding:10px;
 }
-
+.contact-pg1{
+   background-color:black;
+   height:300px;
+}
+.con-head1{
+   color: blueviolet;
+   text-align:center;
+   font-size:33px;
+}
+.cont-f-name1{
+   color:rgb(200, 13, 13);
+   font-size:19px;
+   text-align:center;
+}
+.con-info1{
+  
+   color:rgb(188, 164, 4);
+   margin-top:30px;
+   text-align:center;
+   font-size:21px;
+}
 
  @media (min-width:1024px){
    *{
@@ -473,9 +496,26 @@ li{
    color:white;
    background-color: black;
  }
+ .con-head1{
+   margin-left:70px;
+   font-size:50px;
+   color: rgb(167, 10, 10);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .cont-f-name1{
+   text-align:center;
+   font-size:30px;
+   color: cornflowerblue;
+   font-family:Arial, Helvetica, sans-serif;
+ }
+ .con-info1{
+   text-align:center;
+   margin-top:20px;
+   color:rgb(188, 164, 4);
+ }
  .anim-im-tr{
    position: absolute;
-   left: 80px;
+   left: 70px;
    top:60px;
    width:300px; 
    display: block;
@@ -485,9 +525,8 @@ li{
    animation-duration: 9s;
  }
  .anim-im-tr1{
-   
    position: absolute;
-   right: 90px;
+   right: 80px;
    top:60px;
    width:300px; 
    display: block;

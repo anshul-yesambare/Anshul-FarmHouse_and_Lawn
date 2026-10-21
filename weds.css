@@ -6,15 +6,19 @@
 .main-head-f-weds{
     text-align: center;
     margin-top:20px;
+    color: rgb(80, 89, 97);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .head-f-weds{
     margin:20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:20px;
+    color:rgb(111, 51, 9);
 }
 .li-for-weds{
-    margin-left:30px;
+    margin-left:40px;
     font-size:22px;
+    color:rgba(80, 76, 0, 0.865);
 }
 .abt-head{
     text-align:center;
@@ -57,8 +61,21 @@
     font-size:18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
+.btn-weds{
+    width:200px;
+    height:50px;
+    font-size:30px;
+    border-radius:20px;
+    margin-left:85px;
+    color:rgb(10, 60, 100);
+    border:none;
+    background-color: rgb(226, 164, 120);
+}
+.btn-weds:hover{
+    background-color:rgb(245, 124, 124);
+    color: blue;
+    text-decoration:underline;
+}
 
 
 
@@ -70,6 +87,23 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
+    }
+    .main-head-f-weds{
+        font-size:70px;
+        margin:10px;
+    }
+    .main-head-f-weds:hover{
+        color: rgb(58, 159, 159);
+        box-shadow: 0px 0px 7px 0px rgba(213,144,20,0.84);
+    }
+    .head-f-weds{
+        text-align:center;
+        font-size:40px;
+    }
+    .li-for-weds{
+        
+        font-size:35px;
+        margin-left:370px;
     }
     .abt-head{
         font-size: 60px;
@@ -88,11 +122,31 @@
     .abt-img{
         width:430px;
     }
-
-
+.card-text{
+    color:coral;
+}
+.card-abt-1:hover .card-text{
+   color:rgb(6, 206, 206) ;
+}
 
 
     .abt-head1{
         font-size:50px;
+    }
+    .btn-weds{
+        width:400px;
+        height:70px;
+        border:none;
+        font-size: 50px;
+        border-radius:50px;
+        margin-left:550px;
+        color:rgb(67, 59, 123);
+        background-color: rgb(222, 182, 131);
+    }
+    .btn-weds:hover{
+        background-color:slategray;
+        color:rgb(141, 14, 14);
+        border:2px solid black;
+        box-shadow: 0px 0px 7px 0px rgba(119,112,100,0.84);
     }
 }
